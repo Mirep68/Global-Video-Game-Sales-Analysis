@@ -28,7 +28,7 @@ El conjunto de datos utilizado contiene información histórica sobre videojuego
 
 🔗 Kaggle Dataset:
 
-(https://www.kaggle.com/datasets/zahidmughal2343/video-games-sale)
+https://www.kaggle.com/datasets/zahidmughal2343/video-games-sale
 
 ### Variables Principales
 
