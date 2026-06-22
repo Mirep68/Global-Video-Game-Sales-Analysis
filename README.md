@@ -1,3 +1,7 @@
+<img width="1536" height="1024" alt="ChatGPT Image 30 may 2026, 06_12_33 a m" src="https://github.com/user-attachments/assets/f33ec49f-9344-41d5-9d8c-afe193a64a51" />
+
+---
+
 # 🎮 Video Game Sales Analytics
 
 Proyecto de Analítica de Datos orientado al estudio de las ventas globales de videojuegos mediante procesos de limpieza, transformación, análisis exploratorio, consultas SQL, estadística descriptiva y visualización de datos utilizando Python, PostgreSQL, RStudio y Power BI.
