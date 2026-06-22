@@ -1,6 +1,10 @@
 
 ---
 
+<img width="1536" height="1024" alt="7879befe-0d8b-4544-8b9c-77ca1477bb37" src="https://github.com/user-attachments/assets/77c65887-38ed-4b4d-9b6c-28480d72d711" />
+
+---
+
 <img width="1406" height="791" alt="Captura de pantalla 2026-05-28 202128" src="https://github.com/user-attachments/assets/0fb78599-2899-4809-9a56-5d135d5aaf70" />
 
 ---
@@ -17,9 +21,6 @@
 
 ---
 
-<img width="1536" height="1024" alt="7879befe-0d8b-4544-8b9c-77ca1477bb37" src="https://github.com/user-attachments/assets/77c65887-38ed-4b4d-9b6c-28480d72d711" />
-
----
 
 
 
