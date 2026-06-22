@@ -1,245 +1,301 @@
-# 🎮 Análisis de Ventas Globales de Videojuegos
+# 🎮 Video Game Sales Analytics
 
-Proyecto de analítica de datos enfocado en el análisis de ventas globales de videojuegos para identificar tendencias del mercado, géneros más populares, plataformas con mejor desempeño y patrones de consumo a través del tiempo.
-
-El proyecto abarca todo el ciclo de análisis de datos, desde la obtención y preparación de la información hasta la generación de visualizaciones y conclusiones orientadas a la toma de decisiones.
+Proyecto de Analítica de Datos orientado al estudio de las ventas globales de videojuegos mediante procesos de limpieza, transformación, análisis exploratorio, consultas SQL, estadística descriptiva y visualización de datos utilizando Python, PostgreSQL, RStudio y Power BI.
 
 ---
 
 # 📖 Descripción General
 
-La industria de los videojuegos es uno de los mercados de entretenimiento más grandes del mundo, generando miles de millones de dólares en ventas cada año.
+La industria de los videojuegos genera millones de registros relacionados con ventas, plataformas, géneros y compañías distribuidoras. Sin embargo, para convertir estos datos en información útil es necesario aplicar procesos de preparación, limpieza, análisis y visualización.
 
-Mediante técnicas de limpieza, transformación, análisis exploratorio y visualización de datos, este proyecto busca responder preguntas clave sobre el comportamiento del mercado global de videojuegos.
+Este proyecto desarrolla un flujo completo de análisis de datos utilizando herramientas ampliamente utilizadas en la industria, permitiendo identificar tendencias del mercado, géneros más populares, plataformas con mejor desempeño y comportamientos de consumo a nivel global y regional.
+
+El trabajo incluye todas las etapas del proceso analítico:
+
+* Obtención de datos.
+* Limpieza y preparación.
+* Organización y modelado de bases de datos.
+* Consultas SQL.
+* Análisis Exploratorio de Datos (EDA).
+* Estadística descriptiva.
+* Visualización de datos.
+* Desarrollo de dashboards interactivos.
+* Generación de insights para la toma de decisiones.
 
 ---
 
 # 🎯 Objetivo General
 
-Analizar el comportamiento histórico de las ventas globales de videojuegos para identificar tendencias, patrones de mercado y factores asociados al éxito comercial de los títulos publicados.
+Analizar el comportamiento de las ventas globales de videojuegos mediante técnicas de analítica de datos para identificar patrones, tendencias y factores asociados al desempeño comercial de diferentes videojuegos, plataformas y géneros.
 
 ---
 
 # 📊 Dataset Utilizado
 
-El conjunto de datos utilizado contiene información histórica sobre videojuegos comercializados en diferentes regiones del mundo.
+## Dataset Original
 
-### Fuente del Dataset
-
-🔗 Kaggle Dataset:
+Fuente original obtenida desde Kaggle:
 
 https://www.kaggle.com/datasets/zahidmughal2343/video-games-sale
 
-### Variables Principales
-
-- Nombre del videojuego
-- Plataforma
-- Año de lanzamiento
-- Género
-- Publisher
-- Ventas en Norteamérica
-- Ventas en Europa
-- Ventas en Japón
-- Ventas en otras regiones
-- Ventas globales
+Este dataset contiene información histórica sobre ventas de videojuegos en diferentes regiones del mundo.
 
 ---
 
-# 🔄 Proceso de Análisis
+## Dataset Procesado
 
-El proyecto fue desarrollado siguiendo un flujo de trabajo típico de analítica de datos.
+Como resultado de los procesos de limpieza, validación y transformación realizados durante el proyecto, se generó una versión optimizada del conjunto de datos que fue publicada en Kaggle.
+
+https://www.kaggle.com/datasets/josemiguelricoa/ventas-globales-de-videojuegos
+
+Esta versión incluye datos organizados y preparados para análisis estadístico y visualización.
+
+---
+
+# 🏗️ Herramientas Utilizadas
+
+## Python
+
+Utilizado para:
+
+* Limpieza de datos.
+* Transformación de información.
+* Validación de registros.
+* Análisis exploratorio.
+* Visualización de datos.
+
+### Librerías
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+---
+
+## PostgreSQL y SQL
+
+Utilizados para:
+
+* Organización de la información.
+* Consultas analíticas.
+* Limpieza de datos.
+* Extracción de métricas.
+* Validación de resultados.
+
+---
+
+## RStudio
+
+Utilizado para:
+
+* Estadística descriptiva.
+* Distribuciones de frecuencia.
+* Medidas de tendencia central.
+* Medidas de dispersión.
+* Análisis de comportamiento de las ventas globales.
+
+---
+
+## Power BI
+
+Utilizado para:
+
+* Desarrollo de dashboards interactivos.
+* Visualización de indicadores clave.
+* Exploración de tendencias de mercado.
+* Segmentación regional.
+
+---
+
+# 🔄 Proceso de Desarrollo
 
 ## 1. Obtención de Datos
 
-- Descarga del dataset.
-- Revisión inicial de la estructura de información.
-- Identificación de variables relevantes.
+Se descargó el dataset original desde Kaggle y se realizó una revisión inicial para identificar la estructura de la información, tipos de datos y posibles problemas de calidad.
 
 ---
 
-## 2. Limpieza de Datos
+## 2. Limpieza y Preparación
 
-Actividades realizadas:
+Durante esta etapa se realizaron actividades como:
 
-- Tratamiento de valores nulos.
-- Validación de tipos de datos.
-- Eliminación de registros inconsistentes.
-- Estandarización de variables.
+* Identificación de valores nulos.
+* Corrección de tipos de datos.
+* Eliminación de registros inconsistentes.
+* Validación de campos numéricos.
+* Normalización de información.
+* Preparación de tablas para análisis posteriores.
 
 ---
 
-## 3. Transformación de Datos
+## 3. Organización de la Base de Datos
 
-- Creación de métricas derivadas.
-- Agrupación de información.
-- Preparación para análisis exploratorio.
-- Optimización de consultas.
+Los datos fueron estructurados para facilitar las consultas y mejorar el rendimiento del análisis.
+
+Se desarrollaron consultas SQL para:
+
+* Identificar videojuegos más vendidos.
+* Analizar ventas por plataforma.
+* Analizar ventas por género.
+* Comparar mercados regionales.
+* Generar indicadores de negocio.
 
 ---
 
 ## 4. Análisis Exploratorio de Datos (EDA)
 
-Se realizaron análisis para responder preguntas como:
+Se desarrollaron diferentes análisis para responder preguntas como:
 
-- ¿Qué géneros generan mayores ventas?
-- ¿Qué plataformas han dominado el mercado?
-- ¿Cuáles son las regiones con mayor consumo?
-- ¿Qué publishers obtienen mejores resultados?
-- ¿Cómo han evolucionado las ventas con el tiempo?
-
----
-
-# 🗄️ Análisis con SQL
-
-Se desarrollaron consultas SQL para explorar y extraer información relevante del conjunto de datos.
-
-### Ejemplos de análisis
-
-- Top videojuegos más vendidos.
-- Top publishers.
-- Ventas por región.
-- Ventas por género.
-- Tendencias por año.
-- Participación de mercado por plataforma.
-
-### Tecnologías
-
-- SQL
-- MySQL
+* ¿Qué géneros generan mayores ventas?
+* ¿Qué plataformas dominan el mercado?
+* ¿Cuáles son los videojuegos más exitosos?
+* ¿Qué regiones concentran mayor volumen de ventas?
+* ¿Cómo han evolucionado las ventas a través del tiempo?
 
 ---
 
-# 🐍 Análisis con Python
+## 5. Análisis Estadístico
 
-Python fue utilizado para:
+Utilizando RStudio se realizó un estudio descriptivo sobre la variable de ventas globales.
 
-- Limpieza de datos.
-- Transformación de información.
-- Análisis exploratorio.
-- Generación de gráficos.
-- Validación de resultados.
+Se aplicaron técnicas como:
 
-### Librerías utilizadas
-
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+* Histogramas.
+* Tablas de frecuencia.
+* Curvas de densidad.
+* Boxplots.
+* Medidas de tendencia central.
+* Medidas de dispersión.
+* Análisis de valores atípicos.
 
 ---
 
-# 📈 Dashboard en Power BI
+## 6. Visualización y Business Intelligence
 
-Se desarrolló un dashboard interactivo para facilitar la exploración visual de la información.
+Finalmente se desarrollaron dashboards interactivos en Power BI para facilitar la interpretación de los resultados y la exploración de tendencias del mercado.
 
-### Indicadores Principales
+Los dashboards permiten analizar:
 
-- Ventas Globales
-- Ventas por Región
-- Top Géneros
-- Top Publishers
-- Top Plataformas
-- Evolución Histórica
-
-### Funcionalidades
-
-- Filtros dinámicos
-- Segmentación por región
-- Segmentación por plataforma
-- Segmentación por género
-- Visualizaciones interactivas
-
-### Capturas
-
-*(Agregar imágenes del dashboard aquí)*
+* Ventas globales.
+* Ventas por región.
+* Géneros más populares.
+* Plataformas líderes.
+* Evolución histórica de las ventas.
+* Distribución del mercado por regiones.
 
 ---
 
-# 🔍 Principales Hallazgos
+# 📈 Principales Hallazgos
 
-### Géneros Más Populares
-
-*(Agregar resultados obtenidos)*
-
-### Plataformas con Mayor Participación
-
-*(Agregar resultados obtenidos)*
-
-### Publishers Líderes
-
-*(Agregar resultados obtenidos)*
-
-### Regiones con Mayor Consumo
-
-*(Agregar resultados obtenidos)*
-
-### Tendencias Históricas
-
-*(Agregar resultados obtenidos)*
+* El género Action presenta uno de los mayores volúmenes de ventas globales.
+* La plataforma PS2 se posiciona entre las más exitosas históricamente.
+* Norteamérica y Europa concentran gran parte del mercado global.
+* Existen diferencias significativas en las preferencias de consumo según la región.
+* La industria experimentó un crecimiento importante durante la década de los 2000.
 
 ---
 
-# 📂 Estructura del Proyecto
+# 📂 Contenido del Repositorio
 
-```text
-video-game-sales-analytics
-│
-├── README.md
-├── data/
-├── sql/
-├── notebooks/
-├── dashboard/
-├── reports/
-├── images/
-└── docs/
-```
+## 📁 data
+
+Contiene los conjuntos de datos utilizados durante el proyecto.
+
+* Dataset original.
+* Dataset limpio y procesado.
 
 ---
 
-# 🛠️ Tecnologías Utilizadas
+## 📁 notebooks
 
-- Python
-- Pandas
-- NumPy
-- SQL
-- MySQL
-- Power BI
-- Jupyter Notebook
-- Git
-- GitHub
+Contiene los notebooks desarrollados en Python.
+
+### Limpieza_Organizacion.ipynb
+
+Proceso de limpieza, validación y transformación de datos.
+
+### Consultas_SQL.ipynb
+
+Consultas SQL utilizadas para explorar y analizar la información.
+
+### Analisis_Visualizacion.ipynb
+
+Análisis exploratorio y visualizaciones desarrolladas en Python.
 
 ---
 
-# 📚 Habilidades Aplicadas
+## 📁 sql
 
-- Limpieza de Datos
-- Transformación de Datos
-- ETL
-- SQL
-- Análisis Exploratorio de Datos
-- Data Visualization
-- Business Intelligence
-- Storytelling con Datos
-- Generación de Insights
+Scripts SQL utilizados durante la preparación y análisis de la base de datos.
+
+---
+
+## 📁 dashboard
+
+Dashboard interactivo desarrollado en Power BI.
+
+### Archivo incluido
+
+* Video_Games.pbix
+
+---
+
+## 📁 docs
+
+Documentación del proyecto.
+
+### Incluye
+
+* Informe completo del proyecto.
+* Análisis estadístico desarrollado en RStudio.
+* Recursos complementarios.
+
+---
+
+## 📁 images
+
+Capturas de dashboards, gráficos, consultas y resultados obtenidos durante el desarrollo.
+
+---
+
+# 🛠️ Tecnologías
+
+PostgreSQL • SQL • Python • Pandas • NumPy • Matplotlib • Seaborn • RStudio • Power BI • Kaggle • Git • GitHub
+
+---
+
+# 📚 Competencias Desarrolladas
+
+* Data Cleaning
+* Data Transformation
+* SQL
+* PostgreSQL
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Business Intelligence
+* Statistical Analysis
+* Dashboard Development
+* Data Storytelling
 
 ---
 
 # 👨‍💻 Autor
 
-**José Miguel Rico Acosta**
+José Miguel Rico Acosta
 
-Estudiante de Ingeniería de Sistemas Cibernéticos.
+Estudiante de Ingeniería de Sistemas Cibernéticos
 
-Interesado en Analítica de Datos, Business Intelligence, Ciencia de Datos, IoT y Desarrollo de Software.
+Interesado en Analítica de Datos, Business Intelligence, Ciencia de Datos, Internet de las Cosas (IoT) y Desarrollo de Software.
 
 ---
 
 # 🔗 Recursos
 
-### Dataset en Kaggle
+### Dataset Original
+
+https://www.kaggle.com/datasets/zahidmughal2343/video-games-sale
+
+### Dataset Procesado y Publicado
 
 https://www.kaggle.com/datasets/josemiguelricoa/ventas-globales-de-videojuegos
-
-### Perfil de Kaggle
-
-*(Agregar enlace a tu perfil de Kaggle)*
