@@ -1,3 +1,6 @@
+
+---
+
 <img width="1406" height="791" alt="Captura de pantalla 2026-05-28 202128" src="https://github.com/user-attachments/assets/0fb78599-2899-4809-9a56-5d135d5aaf70" />
 
 ---
@@ -18,5 +21,5 @@
 
 ---
 
-<img width="1536" height="1024" alt="ChatGPT Image 30 may 2026, 06_12_33 a m" src="https://github.com/user-attachments/assets/033d2986-0737-4720-934d-36c7cd51fb69" />
+
 
