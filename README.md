@@ -261,7 +261,7 @@ Capturas de dashboards, gráficos, consultas y resultados obtenidos durante el d
 
 # 🛠️ Tecnologías
 
-PostgreSQL • SQL • Python • Pandas • NumPy • Matplotlib • Seaborn • RStudio • Power BI • Kaggle • Git • GitHub
+`PostgreSQL` `SQL` `Python` `Pandas` `NumPy` `Matplotlib` `RStudio` `Power BI` `Kaggle`
 
 ---
 
